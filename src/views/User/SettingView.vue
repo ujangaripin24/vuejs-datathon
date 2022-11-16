@@ -149,6 +149,12 @@
                         Delete Account
                       </v-btn>
                     </div>
+                    <div class="mt-4">
+                      <h3>Exit</h3>
+                      <v-btn color="error" to="/">
+                        Exit
+                      </v-btn>
+                    </div>
                   </div>
           <Footer />
         </div>

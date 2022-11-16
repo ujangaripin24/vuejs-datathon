@@ -7,7 +7,7 @@
            <v-flex xs12 sm8 md4>
              <v-card class="elevation-12">
                <v-toolbar color="primary" dark flat>
-                 <v-toolbar-title><v-icon>mdi-food</v-icon> Makan Receh</v-toolbar-title>
+                 <v-toolbar-title><v-icon>mdi-food</v-icon> Team 10 WasteApps</v-toolbar-title>
                  <v-spacer></v-spacer>
                  <v-toolbar-items>
                    <v-btn href="/register">Daftar Baru</v-btn>
