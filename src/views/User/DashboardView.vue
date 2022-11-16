@@ -67,7 +67,8 @@
       items: [
         { id: 1, title: 'Dashboard', icon: 'mdi-view-dashboard', to: '/user/dashboard' },
         { id: 2, title: 'Data KK Kota Bandung', icon: 'mdi-account-multiple', to: '/user/data_kk' },
-        { id: 3, title: 'Settings', icon: 'mdi-cog', to: '/user/setting' },
+        { id: 3, title: 'Data Sampah Rumah Tangga', icon: 'mdi-home', to: '/user/data_srt' },
+        { id: 4, title: 'Settings', icon: 'mdi-cog', to: '/user/setting' },
       ],
       foods: [
         // random food name, price, img,

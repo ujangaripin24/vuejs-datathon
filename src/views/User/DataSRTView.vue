@@ -2,7 +2,7 @@
     <div>
         <Header />
         <div class="ml-4 mb-4">
-          <h2>Data Kepala Keluarga</h2>
+          <h2>Data Sampah Rumah Tangga</h2>
           <Bar :chart-data="chartData" />
           
         </div>
