@@ -4,6 +4,7 @@ import LoginView from '../views/LoginView.vue'
 import DashboardView from '../views/User/DashboardView.vue'
 import SettingsView from '../views/User/SettingView.vue'
 import RegisterView from '../views/Register/RegisterView.vue'
+import DataKkView from '../views/User/DataKkView.vue'
 
 Vue.use(VueRouter)
 
@@ -27,6 +28,11 @@ const routes = [
     path: '/register',
     name: 'register',
     component: RegisterView
+  },
+  {
+    path: '/user/data_kk',
+    name: 'data_kk',
+    component: DataKkView
   },
 ]
 

@@ -42,7 +42,11 @@
         </v-list>
       </v-navigation-drawer>
   
-      <v-app-bar app>
+      <v-app-bar
+        app 
+        color="success"
+        dark
+      >
         <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
   
         <v-toolbar-title>Team 10 WasteApps</v-toolbar-title>
@@ -62,7 +66,7 @@
       // items with random id, title, icon, to
       items: [
         { id: 1, title: 'Dashboard', icon: 'mdi-view-dashboard', to: '/user/dashboard' },
-        { id: 2, title: 'Users', icon: 'mdi-account-multiple', to: '/user/users' },
+        { id: 2, title: 'Data KK Kota Bandung', icon: 'mdi-account-multiple', to: '/user/data_kk' },
         { id: 3, title: 'Settings', icon: 'mdi-cog', to: '/user/setting' },
       ],
       foods: [

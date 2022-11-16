@@ -1,6 +1,6 @@
 <template>
     <v-toolbar
-    color="primary"
+    color="success"
     dark
     app
     >

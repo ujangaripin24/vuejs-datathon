@@ -6,8 +6,8 @@
          <v-layout align-center justify-center>
            <v-flex xs12 sm8 md4>
              <v-card class="elevation-12">
-               <v-toolbar color="primary" dark flat>
-                 <v-toolbar-title><v-icon>mdi-food</v-icon> Team 10 WasteApps</v-toolbar-title>
+               <v-toolbar color="success" dark flat>
+                 <v-toolbar-title><v-icon>mdi-delete</v-icon> Team 10 WasteApps</v-toolbar-title>
                  <v-spacer></v-spacer>
                  <v-toolbar-items>
                    <v-btn href="/register">Daftar Baru</v-btn>
@@ -39,11 +39,11 @@
                <v-card-text>
                  <v-layout justify-center>
                    <v-spacer></v-spacer>
-                   <v-btn style="width: 35%;" outlined color="primary"><v-icon>mdi-google</v-icon> Google</v-btn>
+                   <v-btn style="width: 35%;" outlined color="success"><v-icon>mdi-google</v-icon> Google</v-btn>
                    <v-spacer></v-spacer>
-                   <v-btn style="width: 35%;" outlined color="primary"><v-icon>mdi-facebook</v-icon> Facebook</v-btn>
+                   <v-btn style="width: 35%;" outlined color="success"><v-icon>mdi-facebook</v-icon> Facebook</v-btn>
                    <v-spacer></v-spacer>
-                   <v-btn style="width: 35%;" outlined color="primary"><v-icon>mdi-apple</v-icon> Apple</v-btn>
+                   <v-btn style="width: 35%;" outlined color="success"><v-icon>mdi-apple</v-icon> Apple</v-btn>
                    <v-spacer></v-spacer>
                  </v-layout>
                </v-card-text>
